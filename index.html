@@ -8,47 +8,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAF</title>
+    <link rel="stylesheet" href="./scss/estilos.css">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light bg-nav">
         <div class="container-fluid">
-          <img class="nav__imagen" src="./images/logotipo.jpg" alt="">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">NOSOTROS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">DONACIONES</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  LOS PERRITOS
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="#">Los Viejitos</a></li>
-                  <li><a class="dropdown-item" href="#">Historias de Vida</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">¿Como donar?</a></li>
+            <img class="nav__imagen" src="./images/logotipo.jpg" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DONACIONES</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            LOS PERRITOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Los Viejitos</a></li>
+                            <li><a class="dropdown-item" href="#">Historias de Vida</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">¿Como donar?</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PET SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">RENDICIÓN</a>
+                    </li>
+
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PET SHOP</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">RENDICIÓN</a>
-              </li>
-              
-            </ul>
-          </div>
+            </div>
         </div>
-      </nav>
-      <!--<section class="container-fluid mt-10">
+    </nav>
+    <!--<section class="container-fluid mt-10">
           <div class="row justify-content-center">
               <div class="col-md-4 p-0">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -76,21 +81,54 @@
           </div>
       </section>-->
 
-      <section class="container-fluid mt-10">
+    <section class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-6 p-0">
                 <h2 class="text-title">NOSOTROS</h2>
-                <h4 class="text-titleSec">Somos una asociación sin fines de lucro, dedicada al cuidado, dedicación y respeto hacia perritos abandonados y/o rescatados</h4>
+                <h4 class="text-titleSec">Somos una asociación sin fines de lucro, dedicada al cuidado, dedicación y
+                    respeto hacia perritos abandonados y/o rescatados</h4>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 p-0">
-                <img class="img-nosotros" src="./images/nosotros_img.png" alt="">
+                <img class="img-nosotros" src="./images/perro2.jpg" alt="">
+                <div>
+                    <h4 class="text-titleDet">Misión</h4>
+                    <h4 class="text-titleDet">Nosotros tenemos como misión principal brindarle a los perritos
+                        abandonados o desanparados una nueva oportunidad para vivir plenamente y felices</h4>
+                    <h4 class="text-titleDet">Visión</h4>
+                    <h4 class="text-titleDet">Nuestra visión es llegar al corazón de mas gente que pueda apoyar nuestra
+                        causa para ayudar a mas perritos cuya vida es tan valiosa como la nuestra</h4>
+                </div>
             </div>
         </div>
-        
     </section>
-      
+    <section class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-0">
+                <h2 class="text-title">DONACIONES</h2>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6 p-0">
+                <img class="img-donaciones" src="./images/perro7.jpg" alt="">
+            </div>
+            <div class="col-md-6 p-0 d-flex align-items-center bg-secondary">
+                <div class="row justify-content-center">
+                    <h4 class="text-dona">Recaudemos fondos para alimentos, medicinas, tratamientos veterinarios y demás
+                        para los perritos</h4>
+                    <img class="img-corazon-dona" src="./images/corazon.png" alt="">
+                    <h5 class="text-dona">Ver Calendario de Eventos</h5>
+                    <img class="img-corazon-dona" src="./images/corazon.png" alt="">
+                    <h5 class="text-dona">Ver Flayers de colectas</h5>
+                </div>
+            </div>
+            <div class="col-md-12 p-0 mt-5 mb-5 d-flex justify-content-center">
+                <h5 class="text-huella">¡Dale a la huellita para donar por yape!</h5>
+                <img class="img-huella-dona" src="./images/huella.jpg" alt="">
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
