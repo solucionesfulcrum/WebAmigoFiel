@@ -4,6 +4,57 @@
     box-sizing: border-box;
 }
 
+.img-carrusel{
+    height: 40vh;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.nav__imagen{
+    width: 3rem;
+    height: 2.6rem;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.text-title{
+    color: #376565;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+.text-titleSec{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    padding: 25px;
+}
+
+.img-nosotros{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+
+/* reciclabe */
+
+
+.log-container{
+    background: white;
+    margin-top: 0px;
+}
+
+
+
+.nav-dis{
+    border-bottom-left-radius: 4rem;
+}
+
 .nav{
     background-color: white;
     display: grid;
@@ -19,21 +70,12 @@
 
 .nav__links{
     background-color: #376565;
-    border-bottom-left-radius: 4rem;
+    
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     align-items: center;
     justify-items: center;
     width: 100%;
-}
-
-.nav__imagen{
-    width: 2.0rem;
-    height: 1.8rem;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
 }
 
 .nav__texto{
@@ -214,51 +256,39 @@ img.petShop__img{
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 320px) {
-    .nav__texto{
-        font-size: 0;
-    }
-
-    #donaciones{
-        grid-template-rows: 1fr 5fr 5fr auto;
-    }
-
-    .donaciones__detalle{
-        grid-template-columns: 1fr;
-    }
-
-    h1{
+    .text-title{
         font-size: 1rem;
     }
-    
-    h2{
-        font-size: 0.8rem;
+
+    .text-titleSec{
+        font-size: 0.75rem;
     }
 
-    .losPerritos__event{
-        display: grid;
-        grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 320px) {
+    .text-title{
+        font-size: 1.5rem;
     }
 
-    .losPerritos__detalles{
-        grid-gap: 1rem;
-    }
-
-    #fotos{
-        grid-template-columns: 1fr;
+    .text-titleSec{
+        font-size: 1rem;
     }
 
 }
 
 @media only screen and (min-width: 768px) {
-    .nav__texto{
-        font-size: 0;
+    .text-title{
+        font-size: 2rem;
+    }
+
+    .text-titleSec{
+        font-size: 1.5rem;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .nav__texto{
-        font-size: 1rem;
-    }
+    
 }
 
 
