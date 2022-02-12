@@ -333,6 +333,12 @@ img.petShop__img{
         height: 1.75rem;
         margin-top: 5rem;
     }
+
+    .text-dona{
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
 }
 
 @media only screen and (min-width: 320px) {
@@ -348,10 +354,16 @@ img.petShop__img{
         font-size: 1rem;
     }
 
+    .img-corazon-dona{
+        width: 2.5rem;
+        height: 1.75rem;
+        margin-top: 5rem;
+    }
+
     .text-dona{
-        margin-top: 20px;
+        margin-top: 1rem;
         font-size: 0.8rem;
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
 }
 
@@ -366,6 +378,20 @@ img.petShop__img{
 
     .text-titleDet{
         font-size: 1.5rem;
+    }
+
+    .img-corazon-dona{
+        width: 2.5rem;
+        height: 1.5rem;
+        margin-top: 5rem;
+    }
+
+    .text-dona{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
 
