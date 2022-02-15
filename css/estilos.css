@@ -68,21 +68,25 @@
     border: none;
 }
 
+#donaciones{
+    border: none;
+}
+
 .img-donaciones{
     width: 100%;
-    height: 100%;
+    height: 60vh;
+    object-fit: cover;
 }
 
 .text-dona{
     color: black;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .img-corazon-dona{
     width: 5rem;
-    height: 2.5rem;
-    margin-top: 5rem;
+    height: 3rem;
 }
 
 .img-huella-dona{
@@ -100,10 +104,11 @@
     justify-content: center;
 }
 
+
 /* reciclabe */
 
 
-.log-container{
+/*.log-container{
     background: white;
     margin-top: 0px;
 }
@@ -311,7 +316,7 @@ img.petShop__img{
     width: 100%;
     height: 100%;
 }
-
+*/
 
 /* MEDIA QUERIES */
 
@@ -331,13 +336,18 @@ img.petShop__img{
     .img-corazon-dona{
         width: 2.5rem;
         height: 1.75rem;
-        margin-top: 5rem;
     }
 
     .text-dona{
         margin-top: 1rem;
         font-size: 0.8rem;
         margin-bottom: 2rem;
+    }
+
+    .text-huella{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -357,13 +367,18 @@ img.petShop__img{
     .img-corazon-dona{
         width: 2.5rem;
         height: 1.75rem;
-        margin-top: 5rem;
     }
 
     .text-dona{
         margin-top: 1rem;
         font-size: 0.8rem;
         margin-bottom: 2rem;
+    }
+
+    .text-huella{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -383,20 +398,27 @@ img.petShop__img{
     .img-corazon-dona{
         width: 2.5rem;
         height: 1.5rem;
-        margin-top: 5rem;
     }
 
     .text-dona{
         margin-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-bottom: 2rem;
         margin-left: 2rem;
         margin-right: 2rem;
     }
+
+    .text-huella{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1.2rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-    
+    .text-dona{
+        font-size: 1.5rem;
+    }
 }
 
 
