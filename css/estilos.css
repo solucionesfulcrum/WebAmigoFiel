@@ -110,6 +110,12 @@
     padding: 0.5rem;
 }
 
+.imagen__fotoDetalle{
+    width: 100%;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
 .fondoNav{
     background: rgb(55,101,101);
     background: linear-gradient(219deg, rgba(55,101,101,1) 54%, rgba(255,255,255,1) 54%);
@@ -129,7 +135,35 @@
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 
+.bgCard{
+    background-color: #376565;
+    border-color: #376565;
+}
 
+.colorText{
+    color: white;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #8cbbbb;
+    border-color: #8cbbbb;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #8cbbbb;
+    border-color: #8cbbbb;
+    box-shadow: 0 0 0 0.25rem rgba(124, 180, 176, 0.5);
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(245, 244, 244, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(241, 247, 247);
+}
 
 /* reciclabe */
 
