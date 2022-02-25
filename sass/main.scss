@@ -1,3 +1,13 @@
-h1 {
-    color: rebeccapurple;
+.contenedorImgPet{
+    width: 400px;
 }
+
+@for $i from 1 through 10 {
+    .imagenPetShop#{$i}{
+        background-image: url(../images/petShop/producto#{#{$i}}.jpg);
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat
+    }
+}
+

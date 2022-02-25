@@ -1,2 +1,62 @@
-h1 {
-  color: rebeccapurple; }
+.contenedorImgPet {
+  width: 400px; }
+
+.imagenPetShop1 {
+  background-image: url(../images/petShop/producto1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop2 {
+  background-image: url(../images/petShop/producto2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop3 {
+  background-image: url(../images/petShop/producto3.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop4 {
+  background-image: url(../images/petShop/producto4.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop5 {
+  background-image: url(../images/petShop/producto5.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop6 {
+  background-image: url(../images/petShop/producto6.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop7 {
+  background-image: url(../images/petShop/producto7.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop8 {
+  background-image: url(../images/petShop/producto8.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop9 {
+  background-image: url(../images/petShop/producto9.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.imagenPetShop10 {
+  background-image: url(../images/petShop/producto10.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
