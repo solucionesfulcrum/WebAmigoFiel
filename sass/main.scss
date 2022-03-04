@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@mixin sizes($width,$heigth){
+    height: $heigth;
+    width: $width;
+}
+
 .img-carrusel{
     height: 40vh;
     object-fit: cover;
@@ -11,8 +16,7 @@
 }
 
 .nav__imagen{
-    width: 3rem;
-    height: 2.6rem;
+    @include sizes(3rem,2.6rem);
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 10px;
@@ -43,6 +47,7 @@
 }
 
 .img-nosotros{
+    @include sizes(100%,65vh);
     width: 100%;
     height: 65vh;
     object-fit: cover;
@@ -72,9 +77,9 @@
     border: none;
 }
 
+
 .img-donaciones{
-    width: 100%;
-    height: 60vh;
+    @include sizes(100%,60vh);
     object-fit: cover;
 }
 
@@ -85,13 +90,13 @@
 }
 
 .img-corazon-dona{
-    width: 5rem;
-    height: 3rem;
+    @include sizes(5rem,3rem);
 }
 
+
+
 .img-huella-dona{
-    width: 2rem;
-    height: 2rem;
+    @include sizes(2rem,2rem);
 }
 
 .text-huella{
@@ -108,6 +113,12 @@
     width: 100%;
     border-radius: 2rem;
     padding: 0.5rem;
+    z-index: 10;
+}
+
+.imagen__foto:hover{
+    background-color: #F7AFC4;
+    z-index: 20;
 }
 
 .imagen__fotoDetalle{
@@ -151,9 +162,7 @@
 }
 
 .btn-check:focus+.btn-primary, .btn-primary:focus {
-    color: #fff;
-    background-color: #8cbbbb;
-    border-color: #8cbbbb;
+    @extend .btn-primary:hover;  
     box-shadow: 0 0 0 0.25rem rgba(124, 180, 176, 0.5);
 }
 
@@ -165,7 +174,23 @@
     color: rgb(241, 247, 247);
 }
 
+$colorPerros:(
+    macho: #8FB9F7,
+    hembra: #F7AFC4,
+);
 
+@each $colorPerro,$color in $colorPerros {
+    .btn--#{$colorPerro}{
+        width: 100%;
+        border-radius: 2rem;
+        padding: 0.5rem;
+        z-index: 10;
+    }
+    .btn--#{$colorPerro}:hover{
+        background-color: $color;
+        z-index: 20;
+    }
+}
 
 /* MEDIA QUERIES */
 
@@ -306,13 +331,13 @@
     } 
 }
 
-$principal: #376565;
-$apoyo : #C9C1BF;
+//$principal: #376565;
+//$apoyo : #C9C1BF;
 
-$primary: $principal;
-$secondary: $apoyo;
+//$primary: $principal;
+//$secondary: $apoyo;
 
-@import "../libs/bootstrap/scss/bootstrap";
+//@import "../libs/bootstrap/scss/bootstrap";
 
 .contenedorImgPet{
     width: 400px;
