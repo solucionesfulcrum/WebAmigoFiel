@@ -189,6 +189,7 @@ $colorPerros:(
     .btn--#{$colorPerro}:hover{
         background-color: $color;
         z-index: 20;
+        opacity: 0.5;
     }
 }
 
