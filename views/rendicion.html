@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cuentas Claras</title>
+    <link rel="stylesheet" href="../css/compilado.css">
+    <meta name="description"
+        content="Aqui puede comunicarse con nosotros, para detalles de como invertimos las donaciones.">
+    <meta name="keywords" content="MASCOTA, PERRO, ADOPTAR, APADRINAR">
 </head>
+
 <body>
-    
+    <nav class="fondoNav navbar fixed-top navbar-expand-lg navbar-light bg-light bg-nav">
+        <div class="container-fluid">
+            <a href="../index.html"><img class="nav__imagen" src="../images/logotipo.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">DONACIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./losPerritos.html">LOS PERRITOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./petShop.html">PET SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rendicion.html">RENDICIÓN</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="nosotros" class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-0">
+                <h2 class="text-title">CONTACTANOS</h2>
+                <h4 class="text-titleSec">Aqui te brindamos todos los detalles de los que involucra su donación.</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <form class="">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Correo Electronico</label>
+                        <input type="email" class="form-control" id="" aria-describedby="emailHelp"
+                            placeholder="Ingrese su Correo electronico">
+                        <small id="emailHelp" class="form-text text-muted">!Importante¡, aqui recibira la información
+                            requerida</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Consulta</label>
+                        <textarea class="form-control" id=""
+                            placeholder="Ingrese aqui alguna consulta adicional"></textarea>
+                    </div>
+                    <div class="row justify-content-center"><button type="submit" class="boton">Enviar</button></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
